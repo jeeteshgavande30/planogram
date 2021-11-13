@@ -1,0 +1,50 @@
+.container2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+}
+.form{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.formwrapper{
+    width: 40%;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+}
+.formwrapper label{
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.formwrapper input{
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 0.2px #999;
+}
+.formwrapper button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 0.2px #fff;
+    background-color: dodgerblue;
+}
+.formwrapper .colorpicker{
+    padding: 0;
+    height: 40px;
+    width: 90px;
+    border: none;
+}

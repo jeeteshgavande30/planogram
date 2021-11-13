@@ -1,0 +1,20 @@
+.table{
+    height: 12vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+.table th{
+    border-bottom: 2px solid #777;
+  }
+.table th,td{
+    text-align: start;
+}
+.table tr{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.table div{
+    width: 50px;
+    height: 20px;
+    background-color: #000;
+}
